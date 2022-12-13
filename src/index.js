@@ -66,7 +66,9 @@ function Social() {
   return(
      <>
        <div className="social">
-	  <FontAwesomeIcon icon={faYoutube} className="youtube"></FontAwesomeIcon>
+	  <a href="youtube.com">
+	    <FontAwesomeIcon icon={faYoutube} className="youtube"></FontAwesomeIcon>
+          </a>
        </div>	  
      </>
   );
@@ -78,8 +80,8 @@ function Webpage() {
 	<div className="container">
 	<Navbar />
 	<Profile />
-	<About />
 	<Social />
+	<About />
 	</div>
     </>
   );
