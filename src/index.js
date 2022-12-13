@@ -1,17 +1,72 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './App.css';
+
+function Navbar() {
+  return (
+    <>
+      <div className="navbar">
+	  <a href="www.linkedin.com/in/jordan-zvinya-96124b1a1">
+	    Linked In
+	  </a>
+	  <a href="www.linkedin.com/in/jordan-zvinya-96124b1a1">
+	    Github
+	  </a>
+	  <a href="www.linkedin.com/in/jordan-zvinya-96124b1a1">
+	    Resume
+	  </a>
+      </div>
+    </>
+  );
+}
+
+function Profile() {
+  return (
+    <>
+      <div className="profile">
+	  <div className="row">
+	    <div className="profile_image">
+	      <img src={'images/profile.jpg'} />
+	    </div>
+	    <div className="profile_text">
+	      <h1>
+	         Jordan Zvinya
+	      </h1>
+	      <p>
+	         Hello there, welcome to my site. I am a Web developer, Software Engineer and a Solution Designer. Please enjoy my site!
+	      </p>
+	    </div>
+	  </div>
+      </div>
+    </>
+  );
+}
+
+function About() {
+  return(
+     <>
+       <div className="about">
+	  <h1>
+	    About Myself
+	  </h1>
+	  <p>
+	    I am a seasoned Sofware Engineer who has developed a number of solutions using the core concepts of Computer Science. 
+	    I have a number of both front end and backend solutions using the modern technologies and frameworks that are shown below:
+	  </p>
+       </div>	  
+     </>
+  );
+}
+
+function Webpage() {
+  return (
+    <>
+	<Navbar />
+	<Profile />
+	<About />
+    </>
+  );
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+root.render(<Webpage />);
