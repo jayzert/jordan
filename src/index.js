@@ -66,7 +66,7 @@ function Social() {
   return(
      <>
        <div className="social">
-	  <a href="youtube.com">
+	  <a href="http://youtube.com">
 	    <FontAwesomeIcon icon={faYoutube} className="youtube"></FontAwesomeIcon>
           </a>
        </div>	  
