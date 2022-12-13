@@ -62,9 +62,11 @@ function About() {
 function Webpage() {
   return (
     <>
+	<div className="container">
 	<Navbar />
 	<Profile />
 	<About />
+	</div>
     </>
   );
 }
