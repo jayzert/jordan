@@ -13,12 +13,15 @@ a{
   font-style: none;
   text-decoration: none;
 }
+p{
+  font-weight: 300px;
+}
 .navbar{
   background-color: inherit;
   text-align: center;
   font-size: 17px;
   color: white;
-  padding: 12px;
+  padding: 12px 12px 28px;
 }
 .navbar a{
   color: white;
@@ -119,5 +122,9 @@ a{
   }
   .profile_text{
     width: 100%;
+    text-align: center;
+  }
+  .social{
+    text-align: center;
   }
 }
