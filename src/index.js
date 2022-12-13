@@ -69,6 +69,15 @@ function Social() {
 	  <a href="http://youtube.com">
 	    <FontAwesomeIcon icon={faYoutube} className="youtube"></FontAwesomeIcon>
           </a>
+          <a href="http://facebook.com">
+	    <FontAwesomeIcon icon={faFacebook} className="facebook"></FontAwesomeIcon>
+          </a>
+          <a href="http://twitter.com">
+	    <FontAwesomeIcon icon={faTwitter} className="twitter"></FontAwesomeIcon>
+          </a>
+          <a href="http://instagram.com">
+	    <FontAwesomeIcon icon={faInstagram} className="instagram"></FontAwesomeIcon>
+          </a>
        </div>	  
      </>
   );
