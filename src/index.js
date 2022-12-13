@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './App.css';
+import profile from './images/profile.jpg';
 
 function Navbar() {
   return (
@@ -26,7 +27,7 @@ function Profile() {
       <div className="profile">
 	  <div className="row">
 	    <div className="profile_image">
-	      <img src={'images/profile.jpg'} />
+	      <img src={profile} />
 	    </div>
 	    <div className="profile_text">
 	      <h1>
