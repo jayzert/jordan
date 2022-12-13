@@ -50,6 +50,10 @@ body {
   display: table;
   clear: both;
 }
+.social{
+  padding: 16px;
+  text-align: left;
+}
 
 @media screen and (max-width: 600px) {
   .profile_image {
