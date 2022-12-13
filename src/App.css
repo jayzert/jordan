@@ -23,6 +23,9 @@ body {
   margin-left: 8px;
   margin-right: 8px;
 }
+.profile{
+  text-align: left;
+}
 .profile_image {
   float: left;
   width: 20%;
