@@ -4,6 +4,7 @@ import './App.css';
 import profile from './images/profile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faYoutube, faGithub, faFacebook, faTwitter, faInstagram } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
   return (
@@ -65,13 +66,7 @@ function Social() {
   return(
      <>
        <div className="social">
-	  <h1>
-	    About Myself
-	  </h1>
-	  <p>
-	    I am a seasoned Sofware Engineer who has developed a number of solutions using the core concepts of Computer Science. 
-	    I have a number of both front end and backend solutions using the modern technologies and frameworks that are shown below:
-	  </p>
+	  <FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon>
        </div>	  
      </>
   );
