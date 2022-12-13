@@ -9,6 +9,10 @@ body {
   font-family: Sans-Serif;
   text-align: center;
 }
+a{
+  font-style: none;
+  text-decoration: none;
+}
 .navbar{
   background-color: inherit;
   text-align: center;
@@ -17,8 +21,6 @@ body {
   padding: 12px;
 }
 .navbar a{
-  font-style: none;
-  text-decoration: none;
   color: white;
   margin-left: 8px;
   margin-right: 8px;
@@ -56,6 +58,7 @@ body {
 }
 .youtube{
   color: red;
+  font-size: 17px;
 }
 
 @media screen and (max-width: 600px) {
