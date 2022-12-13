@@ -4,7 +4,7 @@ import './App.css';
 import profile from './images/profile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import { faYoutube, faGithub, faFacebook, faTwitter, faInstagram } from '@fortawesome/free-solid-svg-icons'
+import { faYoutube, faGithub, faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 function Navbar() {
   return (
