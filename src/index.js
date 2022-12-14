@@ -105,7 +105,6 @@ function Webpage() {
 	<Profile />
 	<Social />
 	<About />
-	<Technologies />
 	</div>
     </>
   );
