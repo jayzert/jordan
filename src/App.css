@@ -125,7 +125,12 @@ p{
   padding: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+  .technology{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 540px) {
   .profile_image {
     width: 100%;
   }
@@ -135,5 +140,8 @@ p{
   }
   .social{
     text-align: center;
+  }
+  .technology{
+    width: 25%;
   }
 }
