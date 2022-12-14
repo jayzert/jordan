@@ -83,6 +83,20 @@ function Social() {
   );
 }
 
+function Technologies() {
+  return(
+     <>
+       <div className="technologies">
+	  <div class="row">
+	    <div class="technology">
+	       <img src={'.\images\react.jpg'} />
+	    </div>
+	  </div>
+       </div>	  
+     </>
+  );
+}
+
 function Webpage() {
   return (
     <>
@@ -91,6 +105,7 @@ function Webpage() {
 	<Profile />
 	<Social />
 	<About />
+	<Technologies />
 	</div>
     </>
   );
