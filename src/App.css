@@ -16,6 +16,9 @@ a{
 p{
   font-weight: 300px;
 }
+.container{
+  max-width: 1200px;
+}
 .navbar{
   background-color: inherit;
   text-align: center;
