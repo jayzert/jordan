@@ -115,6 +115,15 @@ p{
   color: white;
   background-color: #dd4b39; 
 }
+.technologies{
+  padding: 16px;
+  text-align: left;
+}
+.technology{
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
 
 @media screen and (max-width: 600px) {
   .profile_image {
